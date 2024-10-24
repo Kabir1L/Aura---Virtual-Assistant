@@ -94,11 +94,6 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
-    else if(message.includes('who is my future girlfriend')) {
-        const finalText = "You will marry no one else but Esh, that is your future end game she will be the love of your life and your dream come true.";
-        speech.text = finalText;
-    }
-
 
     else if(message.includes('who is your developer') || message.includes('who developed you') || message.includes('who build you')) {
         const finalText = "I'm developed by Kabir. Let see his profile";
